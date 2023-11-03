@@ -32,17 +32,17 @@ test('Add character', () => {
   team.add(character);
 
   const result = new Set([
-		{
-			name: 'Character',
-			type: 'Swordman',
-			health: 50,
-			level: 2,
-			attack: 20,
-			defence: 20,
-		}
-]);
+    {
+      name: 'Character',
+      type: 'Swordman',
+      health: 50,
+      level: 2,
+      attack: 20,
+      defence: 20,
+    },
+  ]);
 
-	expect(team.characters).toEqual(result);
+  expect(team.characters).toEqual(result);
 });
 
 test('convert set to array', () => {
