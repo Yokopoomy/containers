@@ -82,7 +82,7 @@ test('Return with no double', () => {
   };
   const team = new Team();
 
-  team.addAll(character1, character2, character1);
+  team.addAll(character1, character2, character2);
 
   const result = [character1, character2];
 
